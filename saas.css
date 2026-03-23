@@ -41,6 +41,7 @@ body{
   background: var(--bg-main);
   color: var(--text-main);
   line-height: 1.6;
+  overflow-x: hidden;
 }
 
 
@@ -80,6 +81,7 @@ html{
   align-items:center;
   padding:15px 8%;
   max-height: 100px;
+
   }
 
 nav{
@@ -862,6 +864,39 @@ width:110px;
 }
 
 }
+@media (max-width: 600px){
+.navbar{
+flex-direction:row;
+align-items: center;
+gap:15px;
+padding:20px;
+}
+
+.navbar ul{
+color: #000;
+flex-wrap:wrap;
+justify-content:center;
+gap:7px;
+font-size: 9px;
+}
+
+.navbar ul li{
+  text-align: center;
+}
+
+.navbar ul li a{
+    
+    padding: 1px;
+    background: rgba(124, 92, 255, 0.08);
+    border-radius: 6px;
+  }
+
+.nav-btn{
+width:110px;
+}
+
+}
+
 
 @media (max-width: 900px){
 
@@ -987,4 +1022,3 @@ font-size:14px;
 }
 
 }
-

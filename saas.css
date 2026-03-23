@@ -219,6 +219,16 @@ height: auto;
 object-fit: contain;
 }
 
+.trust-badge{
+  display: inline-block;
+  background: rgba(124, 92, 255, 0.1);
+  color: var(--primary);
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 12px;
+  margin-bottom: 15px;
+  font-weight: 500;
+}
 
 /*SPACE*/
 .space{
@@ -475,6 +485,42 @@ box-shadow:0 20px 40px rgba(0,0,0,0.4);
 }
 
 .step p {
+  color: var(--text-secondary);
+  font-size: 14px;
+}
+
+
+
+.why{
+  text-align: center;
+  padding: 100px 8%;
+}
+
+.why h2{
+  font-size: 32px;
+  margin-bottom: 50px;
+}
+
+.why-grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px;
+}
+
+.why-card{
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: var(--shadow-soft);
+  transition: 0.3s;
+}
+
+.why-card:hover{
+  transform: translateY(-8px);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+}
+
+.why-card p{
   color: var(--text-secondary);
   font-size: 14px;
 }
